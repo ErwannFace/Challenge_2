@@ -18,6 +18,7 @@ h1 {
 
 h2 {
     font-size: 22px;
+    margin: 40px 0;
 }
 
 p {
@@ -80,9 +81,32 @@ section.top {
     background-image: url(images/banner.png);
     background-size: 100%;
     color: #eee;
-    /* taille test */
-    height: 500px;
 } 
+
+/* Images rondes avec les nanas */
+
+.img {
+    width: 160px;
+    height: 160px;
+    margin: 125px 0 0 0;
+    border-radius: 320px;
+    display: inline-block;
+    background-size: contain;
+}
+
+.img1 {
+    background-image: url(images/pic01.jpg);
+    
+}
+
+.img2 {
+    background-image: url(images/pic02.jpg);
+    margin: 0 45px 0 45px;
+}
+
+.img3 {
+    background-image: url(images/pic03.jpg);
+}
 
 section.mid {
     background-color: #eee;
