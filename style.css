@@ -1,0 +1,48 @@
+#container {
+	width: 1000px;
+	height: 1200px;
+	margin: auto;
+	border: 2px dashed black;
+}
+
+
+/* DIV HEADER */
+#header {
+	background-color: #EEEEEE;
+	height: 150px;
+	width: 1000px;
+	border: 2px dashed green;
+	float: left;
+}
+
+#header p {
+	font-size: 55px;
+	font-family: News Cycle;
+	color:#2B3F48;
+	text-align: left;
+	margin: 20px;
+}
+
+#menu {
+	float: right;
+	height: 100px;
+	width: 700px;
+	border: 2px dashed blue;
+}
+
+#menu li {
+	display: inline;
+	list-style: none;
+	margin: 0px 10px 10px 0px;
+}
+
+#menu a {
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #958D8D;
+}
+
+#menu a:hover {
+	color: #27AE61;
+}
+/* /DIV HEADER/ */
