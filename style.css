@@ -1,7 +1,7 @@
-/* DEBUG */
+/* DEBUG 
 * {
     outline: 1px red solid;
-}
+}*/
 
 * {
     font-family: 'News Cycle', sans-serif;
@@ -29,10 +29,10 @@ p {
 body {
     margin: 0;
     padding: 0;
-    background-image: url(images/banner.png);
+    /*background-image: url(images/banner.png);
     background-size: 100%;
     background-position: top;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;*/
 }
 
 /* HEADER */
@@ -68,3 +68,34 @@ li a {
     text-transform: uppercase;
 }
 
+/* Les sections du site - leur taille, leur histoire, tout quoi */
+
+#top, #mid, #bottom {
+    width: 1000px;
+    margin: auto;
+}
+
+section.top {
+    background-color:  #27ae61;
+    background-image: url(images/banner.png);
+    background-size: 100%;
+    color: #eee;
+    /* taille test */
+    height: 500px;
+} 
+
+section.mid {
+    background-color: #eee;
+    color: #2b3f48;
+}
+
+section.bottom {
+    background-color: #27ae61;
+    color: #eee;
+}
+
+/* pied de page */
+
+footer {
+    background-color: #eee;
+}
