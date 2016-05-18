@@ -1,0 +1,70 @@
+/* DEBUG */
+* {
+    outline: 1px red solid;
+}
+
+* {
+    font-family: 'News Cycle', sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+/* Tailles du texte */
+
+h1 {
+    font-size: 55px;
+    text-align: left;
+}
+
+h2 {
+    font-size: 22px;
+}
+
+p {
+    font-size: 17px;
+}
+
+/* BODY */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(images/banner.png);
+    background-size: 100%;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+/* HEADER */
+
+header {
+    width: 100%;
+    height: 100px;
+    position: relative;
+    background-color: #eee;
+}
+
+/* Menu de navigation */
+
+nav {
+    position: absolute;
+    right: 160px;
+    top: 25%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+    margin: 0 0 0 45px;
+}
+
+li a {
+    text-decoration: none;
+    font-size: 17px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
