@@ -1,0 +1,43 @@
+.container {
+	height : 100%;
+	width : 100%
+}
+
+
+@font-face {
+    font-family: "News Cycle";
+    src: url('//www.google.com/fonts#UsePlace:use/Collection:News+Cycle
+.ttf');
+
+div {width : 1000px
+}
+
+h2 {
+ font-size : 55px
+}
+
+h3 {
+ font-size : 22px
+}
+
+p {
+ font-size : 17px
+}
+
+.header {
+	height : 
+	
+}
+
+.haut {
+	width:100%;
+	height: 400px;
+	background-image : url("banner.png");
+	background-repeat : no-repeat;
+	background-attachment : fixed;
+}
+
+
+.image {
+	float : left;
+}
