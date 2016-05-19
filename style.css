@@ -1,14 +1,13 @@
+
+
 * {
 	font-family: "News Cycle";
 }
 
-div {
-	width : 1000px
-}
 
 h2 {
 	font-size : 55px;
-	text-align : center;
+	text-align : center;		/* ingo G font */
 }
 
 h3 {
@@ -21,11 +20,35 @@ p {
 	text-align : center;
 }
 
+
+
+.header {
+	height : 103px;
+	width : 100%;					/* Le header...*/
+	background-color: #EEEEEE; 
+	text-align: center;
+	margin: 0 auto;
+}
+
+
+
+.haut {
+	width:100%;
+	height: 855px;
+	background-image : url("images/banner.png");
+	background-repeat : no-repeat;
+	background-attachment : scroll;
+	background-color : #27AE61;
+	background-size: 100%;
+	opacity : 0.8;
+	margin: 0 auto;
+}
+
 .img {
 	display : inline-block;
 	width : 160px;
 	height : 160px;
-	border-radius : 320px;
+	border-radius : 320px;				/* 1er bloc de .haut a texte blanc*/
 	background-size: 100%;
 }
 
@@ -40,46 +63,56 @@ p {
 }
 
 
-
-
-.header {
-	height : 103px;
-	width : 100%;
-	background-color: #EEEEEE; 
-	
-}
-
-.haut {
-	width:100%;
-	height: 855px;
-	background-image : url("images/banner.png");
-	background-repeat : no-repeat;
-	background-attachment : fixed;
-	background-color : #27AE61;
-	opacity : 0.8
-}
-
-
 #image {
 	margin :0 auto;
 	width : 500px;
-	background-color:yellow;
-	padding: 0 auto;
+	padding-top: 50px;
 }
+
+.texteblanc {
+	width: 1000px;
+	height: 264px;
+	padding-bottom: 240px;
+	text-align: center;
+	color : #FFFFFF;
+	margin :0 auto;
+	padding: 0 auto;
+} 
+
 
 
 .milieu  {
         height : 617px;
         width : 100%;
-        background-color: #EEEEEE;
+        background-color:#EEEEEE ; /* 2ème bloc*/
+        padding-top: 50px;
 
 }
+#textevert {
+	width: 1000px;
+	height: 264px;
+	padding-bottom: 240px;
+	text-align : center;
+	color: #2B3F48;
+	margin :0 auto;
+} 
 
 
 .bas {
 
  	height : 603px;
-        width : 100%;
-        background-color: #27AE61;
+    width : 100%;
+    background-color: #27AE61;  /* 3ème bloc*/
+    padding-top: 50px;
+    margin: 0 auto;
+}
+
+footer {
+	width: 1000px;
+	height: 206px;
+	background-color :#EEEEEE; /* le footer*/
+	text-align: center;
+	line-height: 206px;
+	margin:  0 auto;
 }
 
