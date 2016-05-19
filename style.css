@@ -1,5 +1,74 @@
+h1, h2, h3{font-family: News Cycle;}
+
+h1{
+	font-size: 55px;
+}
+
+h2{
+	font-size: 22px;
+}
+
+h3{
+	font-size: 20px;
+}
+
 #container{
-	color : green
-	width:1000px; 
-	height: auto;
+	margin-right: auto;
+	margin-left:  auto;
+	/*color : green;*/
+	width:	1280px; 
+	/*height: auto;*/
+}
+/*Bloc header*/
+header{
+	height: 32px;
+	width: 1280px; 
+}
+
+.title_logo{
+	float: left;
+}
+.title_logo h1{
+	margin: 0;
+}
+
+nav{
+	float: right;
+}
+
+nav a{
+	text-decoration: none;
+}
+nav ul li{
+	display: inline-block;
+}
+
+/*Bloc main*/
+.Bloc1{
+	background-image: url('images/banner.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: green;
+}
+
+.Bloc1{
+
+}
+.user{
+	margin: 0px auto;
+	display: inline-block;
+	width: 150px;
+	height:	150px;
+}
+
+.un{
+	background-image: url(images/pic01.jpg);
+}
+
+.deux{
+	background-image: url(images/pic02.jpg);
+}
+
+.trois{
+	background-image: url(images/pic03.jpg);
 }
