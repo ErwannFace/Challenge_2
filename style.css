@@ -1,25 +1,46 @@
-.container {
-	height : 100%;
-	width : 100%
+* {
+	font-family: "News Cycle";
 }
 
-* {font-family: "News Cycle";
-}
-
-div {width : 1000px
+div {
+	width : 1000px
 }
 
 h2 {
- font-size : 55px
+	font-size : 55px;
+	text-align : center;
 }
 
 h3 {
- font-size : 22px
+	font-size : 22px;
+	text-align : center;
 }
 
 p {
- font-size : 17px
+	font-size : 17px;
+	text-align : center;
 }
+
+.img {
+	display : inline-block;
+	width : 160px;
+	height : 160px;
+	border-radius : 320px;
+	background-size: 100%;
+}
+
+.img1 {
+	background-image : url('images/pic01.jpg');
+}
+.img2 {
+        background-image : url('images/pic02.jpg');
+}
+.img3 {
+        background-image : url('images/pic03.jpg');
+}
+
+
+
 
 .header {
 	height : 103px;
@@ -39,8 +60,11 @@ p {
 }
 
 
-.image {
-	float : left;
+#image {
+	margin :0 auto;
+	width : 500px;
+	background-color:yellow;
+	padding: 0 auto;
 }
 
 
