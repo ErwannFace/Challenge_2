@@ -1,8 +1,142 @@
+h1, h2, h3{font-family: News Cycle;}
+
+h1{
+	font-size: 55px;
+}
+
+h2{
+	font-size: 22px;
+}
+
+h3{
+	font-size: 20px;
+}
+
 #container{
+<<<<<<< HEAD
 <<<<<<< HEAD
 	color : green;
 =======
 >>>>>>> 1593bf01b5b3bb4bf6b0754ad3698aa3340059e8
+=======
+	margin-right: auto;
+	margin-left:  auto;
+	/*color : green;*/
+	width:	1280px; 
+	/*height: auto;*/
+}
+/*Bloc header*/
+header{
+	height: 32px;
+	width: 1280px; 
+}
+
+.title_logo{
+	float: left;
+}
+.title_logo h1{
+	margin: 0;
+}
+
+nav{
+	float: right;
+}
+
+nav a{
+	text-decoration: none;
+}
+nav ul li{
+	display: inline-block;
+}
+
+/*Bloc main*/
+.Bloc1{
+	background-image: url('images/banner.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: green;
+}
+
+.Bloc1{
+
+}
+.user{
+	margin: 0px auto;
+	display: inline-block;
+	width: 150px;
+	height:	150px;
+}
+
+.un{
+	background-image: url(images/pic01.jpg);
+}
+
+.deux{
+	background-image: url(images/pic02.jpg);
+}
+
+.trois{
+	background-image: url(images/pic03.jpg);
+}
+
+/*
+=======
+	color : green
+>>>>>>> bae35e8d8cad589bf65bd450f661422fb8139123
 	width:1000px; 
 	height: auto;
 }
+*/
+
+/*ajout de la partie bloc 2 et 3 */
+
+.Bloc2 {
+	text-align: center;
+	width: auto;
+	height: 250px;
+	background-color: yellow;
+	
+}
+
+.clicbloc2 button{
+	text-align: center;
+	font-family : News Cycle;
+	background-color :green;
+	color: white;
+	
+}
+
+.Bloc3{
+	text-align: center;
+	width: auto;
+	height: 245px;
+	background-color: green;
+	margin-bottom: 50px;
+}
+
+.clicbloc3 button{
+	text-align: center;
+	font-family : News Cycle;
+	background-color :white;
+	color: green;
+}
+
+h4{
+	font-size: 55px;
+	font-family : News Cycle;
+
+}
+
+h5{
+	font-family : News Cycle;
+	font-size : 22px;
+}
+
+p{
+	font-family : News Cycle;
+	font-size: 17px;
+}
+
+
+
+
