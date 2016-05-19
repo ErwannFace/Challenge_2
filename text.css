@@ -38,4 +38,45 @@ nav li:hover {
 	color: #27AE61;
 }
 
+#article1 {
+	height: 800px;
+	width: 1000px;
+	background-color: #31AA65;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#photo {
+	padding: 10px;
+	float: center;
+	width: auto;
+}
+
+#article2 {
+	height: 600px;
+	width: 1000px;
+	background-color: #EEEEEE;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+h1 {
+	font-size: 55px;
+	margin-top: 0;
+	padding-top: 30px;
+	color: #2B3F48;
+	text-align: center;
+}
+
+h2 {
+	font-size: 22px;
+	color: #6F6F6F;
+	text-align: center;
+}
+
+h6 {
+	font-size: 17px;
+	color: #6F6F6F;
+	text-align: center;
+}
 
