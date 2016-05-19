@@ -3,10 +3,7 @@
 	width : 100%
 }
 
-
-@font-face {
-    font-family: "News Cycle";
-    src: url('//www.google.com/fonts#UsePlace:use/Collection:News+Cycle.ttf');
+* {font-family: "News Cycle";
 }
 
 div {width : 1000px
