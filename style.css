@@ -1,51 +1,79 @@
-#container{
-background-color:white;
-opacity:0.8;
-width :1280px;
-height :2356px;
-background-position:center center;
+* {
+	margin: 0px;
+	padding: 0px;
 }
 
+#container {
+	background-color:white;
+	opacity:0.8;
+	width :100%;
+	height :2356px;
+	background-position:center center;
+}
+
+/* Div header*/
+#header {
+	width:70%;
+	height:100px;
+	margin: auto;
+}
+
+#header h1 {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 55px;
+	color: #3B3F48;
+	font-family: 'News Cycle';
+	margin-top: 2%;
+}
+#menu {
+	display: inline-block;
+	float: right;	
+}
+
+#menu li {
+	display: inline;
+	list-style: none;
+	font-size: 17px;
+	margin-right: 0 0.2% 0 1%;
+}
+
+#menu a {
+	text-decoration: none;
+	color: #3B3F48;
+}
+
+#menu a:hover {
+	color: #3CB371;
+}
+/* /Div header\ */
 
 
-body{
-background-color:black;
+#photo {
+	width:100%;
+	height:820px;
+	background-repeat:no-repeat;
+	background-position: center; 
+	background-color:#3CB371;
+	background-size: 100%;
+}
+
+#blanc {
+	width:100%;
+	height:620px;
+}
+
+#vert {
+	width:100%;
+	height:600px;
+	background-color:#3CB371;
+}
+
+.box {
 
 }
 
-#header{
-width:1280px;
-height:100px;
-}
-
-#menu{}
-
-#photo{
-width:1280px;
-height:820px;
-background-repeat:no-repeat;
-background-position: center; 
-background-image:url("images/banner.png");
-background-color:#3CB371;
-background-size: 100%;
-}
-
-
-
-#blanc{
-width:1280px;
-height:620px;
-}
-
-#vert{
-width:1280px;
-height:600px;
-background-color:#3CB371;
-}
-
-.box{}
-
-#footer{
-width:1280px;
-height:213px;
+#footer {
+	width:100%px;
+	height:213px;
 }
