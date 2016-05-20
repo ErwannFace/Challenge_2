@@ -4,11 +4,8 @@
 }
 
 #container {
-	background-color:white;
-	opacity:0.8;
-	width :100%;
+	background-color:whitesmoke;
 	height :2356px;
-	background-position:center center;
 }
 
 /* Div header*/
@@ -84,6 +81,13 @@ header h1 {
 	color: white;
 	opacity: 0.6;
 	font-weight: normal;
+}
+
+#photo p {
+	font-family: 'News Cycle';
+	text-align: center;
+	color: white;
+	font-size: 17px;
 }
 /* /1ere div verte\ */
 
