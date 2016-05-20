@@ -1,48 +1,51 @@
-#container {
-	width: 1000px;
-	height: 1200px;
-	margin: auto;
-	border: 2px dashed black;
+#container{
+background-color:white;
+opacity:0.8;
+width :1280px;
+height :2356px;
+background-position:center center;
 }
 
 
-/* DIV HEADER */
-#header {
-	background-color: #EEEEEE;
-	height: 150px;
-	width: 1000px;
-	border: 2px dashed green;
-	float: left;
+
+body{
+background-color:black;
+
 }
 
-#header p {
-	font-size: 55px;
-	font-family: News Cycle;
-	color:#2B3F48;
-	text-align: left;
-	margin: 20px;
+#header{
+width:1280px;
+height:100px;
 }
 
-#menu {
-	float: right;
-	height: 100px;
-	width: 700px;
-	border: 2px dashed blue;
+#menu{}
+
+#photo{
+width:1280px;
+height:820px;
+background-repeat:no-repeat;
+background-position: center; 
+background-image:url("images/banner.png");
+background-color:#3CB371;
+background-size: 100%;
 }
 
-#menu li {
-	display: inline;
-	list-style: none;
-	margin: 0px 10px 10px 0px;
+
+
+#blanc{
+width:1280px;
+height:620px;
 }
 
-#menu a {
-	text-transform: uppercase;
-	text-decoration: none;
-	color: #958D8D;
+#vert{
+width:1280px;
+height:600px;
+background-color:#3CB371;
 }
 
-#menu a:hover {
-	color: #27AE61;
+.box{}
+
+#footer{
+width:1280px;
+height:213px;
 }
-/* /DIV HEADER/ */
