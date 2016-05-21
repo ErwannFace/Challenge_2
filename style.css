@@ -4,43 +4,40 @@
 }
 
 body {
-	width: 1250px;
+	background-color: black;
+	width: 1280px;
 	margin-left: auto;
 	margin-right: auto;
 	font-family: 'News Cycle';
 }
 
-#container {
-	width: 100%;
-}
 
 header {
 	background-color: #EEEEEE;
-	/*margin-top: 0;*/
-	/*margin-left: auto;
-	margin-right: auto;*/
-	height: 100px;
-	/*width: 1250px;*/
+	/*opacity: 0.8;*/
+	margin-top: 0;
+	margin-left: auto;
+	margin-right: auto;
+	height: 110px;
 }
 
 h3 {
 	float: left;
-	vertical-align: middle;
-	margin-left: 50px;
-	
+	margin-left: 150px;
+	margin-top: 30px;
+	font-size: 30px;
 }
 
 nav ul {
-    	/*margin-top: 0px;*/
-	vertical-align= middle;
-	float: right;
-	margin-right: 50px;
+    	float: right;
+	margin-right: 100px;
 }
 
 nav li {
-	font-size: 17px;
+	font-size: 15px;
 	display: inline-block;
-	padding: 10px;
+	padding: 25px;
+	margin-top: 18px;
 }
 
 nav li:hover {
@@ -58,26 +55,67 @@ nav li:hover {
 }
 
 #photo {
-	background-image: center;
+	text-align: center;
 }
 
 #photo img {
-	padding: 10px;
+	padding: 20px;
 	width: auto;
 	border-radius: 50%;
 	margin-top: 100px;
 	display: inline-block;
+	text-align: center;
+	height: 150px;
+	width: 150px;
+}
+
+#article1 h1 {
+	color: #FFFFFF;
+	font-size: 55px;
+	text-align: center;
+	margin-top: 30px;
+}
+
+#article1 h2 {
+	color: silver;
+	font-size: 17px;
+	text-align: center;
+}
+
+#article1 p {
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 17px;
+}
+
+#bouton1 {
+	width: 265px;
+	height: 70px;
+	text-align: center;
+	color: #FFFFFF;
+	padding-top: 20px;
+	background: black;
+	border-radius: 8px;
+	display: block;
+	cursor: pointer;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	font-size: 20px;
+	vertical-align: center;
+	line-height: 40px;	
 }
 
 #article2 {
 	height: 600px;
-	/*width: 1000px;*/
+	width: 1280px;
 	background-color: #EEEEEE;
+	padding-top: 60px;
 	margin-right: auto;
 	margin-left: auto;
 }
 
-h1 {
+#article2 h1 {
 	font-size: 55px;
 	margin-top: 0;
 	padding-top: 30px;
@@ -85,44 +123,82 @@ h1 {
 	text-align: center;
 }
 
-h2 {
+#article2 h2 {
 	font-size: 22px;
 	color: #6F6F6F;
-	text-align: center;#A5731D
+	text-align: center;
 }
 
-h6 {
+#article2 p {
 	font-size: 17px;
 	color: #6F6F6F;
 	text-align: center;
 }
 
-#bouton {
+#bouton2 {
 	width: 265px;
 	height: 70px;
 	text-align: center;
 	color: #EEEEEE;
-	padding-top: 5px;
+	padding-top: 20px;
 	background: #27AE61;
 	border-radius: 8px;
 	display: block;
 	cursor: pointer;
-	float: center;
 	margin-left: auto;
 	margin-right: auto;
+	margin-top: 20px;
+	font-size: 20px;
+	line-height: 40px;
+	padding-top: 20px;
 }
 
 #article3 {
-	/*width: 1000px;*/
+	width: 1280px;
 	height: 600px;
 	margin-left: auto;
 	margin-right: auto;
 	background: #27AE61;
 }
 
+#article3 h1 {
+	text-align: center;
+	font-size: 55px;
+	padding-top: 80px;
+	color: #FFFFFF;
+}
+
+#article3 h2 {
+	text-align: center;
+	font-size: 22px;
+	color: silver;
+}
+
+#article3 p {
+	text-align: center;
+}
+
+#bouton3 {
+	width: 265px;
+	height: 70px;
+	text-align: center;
+	color: #27AE61;
+	padding-top: 20px;
+	background: #FFFFFF;
+	border-radius: 8px;
+	display: block;
+	cursor: pointer;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	font-size: 20px;
+	line-height: 40px;
+	padding-top: 20px;
+}
+
 footer {
 	height: 205px;
-	/*width: 1000px;*/
+	width: 1280px;
 	background: #EEEEEE;
 	margin-right: auto;
 	margin-left: auto;
