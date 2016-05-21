@@ -54,12 +54,19 @@ header h1{
 }
 
 nav{
+	margin-top: 37px;
+	margin-bottom: 37px;
+	height: 34px;
 	float: right;
-	margin-top: 50px;
 }
 
 nav a{
+
+	padding: 0px 19px;
+	font-size: 14px;
 	text-decoration: none;
+	letter-spacing: 1px;
+	text-transform: uppercase;
 }
 nav ul li{
 	display: inline-block;
