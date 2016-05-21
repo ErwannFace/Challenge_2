@@ -16,24 +16,10 @@ h3{
 	font-size: 22px;
 }
 
-/*p{
-	text-align: center;
+#sec_header{
+	background-color: #EEEEEE;
 }
-#container{
 
-/*<<<<<<< HEAD
-<<<<<<< HEAD*/
-	/*color : green;*/
-/*=======
->>>>>>> 1593bf01b5b3bb4bf6b0754ad3698aa3340059e8
-=======*/
-	/*margin-right: auto;
-	margin-left:  auto;*/
-	margin : auto;
-	/*color : green;*/
-	width:	1280px; 
-	/*height: auto;*/
-}
 /*Bloc header*/
 header{
 	margin: 0 auto;
@@ -46,13 +32,13 @@ header h1{
 	float: left;
 }
 
-.title_logo{
+/*.title_logo{
 	float: left;
 }
 .title_logo h1{
 	margin: 0;
 }
-
+*/
 nav{
 	margin-top: 37px;
 	margin-bottom: 37px;
