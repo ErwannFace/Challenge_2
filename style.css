@@ -1,3 +1,4 @@
+/* évite la définition de marges par défaut par le navigateur */
 * {
 	margin: 0;
 	padding: 0;
@@ -6,6 +7,10 @@
 body {
 	font-family: "News Cycle";
 	width: 100%;
+}
+
+strong {
+	font-weight: 700;
 }
 
 /* limite le contenu des sections :
@@ -48,15 +53,18 @@ nav a:hover {
 }
 
 section {
+	padding-top: 110px;
+	/* taille totale 610px - padding 110px = 500px */
 	height: 500px;
 	text-align: center;
-	padding-top: 110px;
 }
 
 .big-section {
+	/* taille totale 825px - padding 110px = 715px */
 	height: 715px;
-	background-color: #39B26D;
 	color: #FFFFFF;
+	background-color: #39B26D;
+	/* image de fond */
 	background-image: url("images/banner.png");
 	background-repeat: no-repeat;
 	background-position: center top;
@@ -69,11 +77,13 @@ section {
 	height: 160px;
 }
 
-/* photo en médaillon */
+/* format et alignement des photos */
 .pictures img {
+	/* médaillons de 160px de rayon */
 	width: 160px;
 	height: 160px;
 	border-radius: 160px;
+	/* alignement horizontal des images */
 	margin-left: 22px;
 	margin-right: 22px;
 }
@@ -111,21 +121,19 @@ p {
 	font-weight: 700;
 }
 
-strong {
-	font-weight: 700;
-}
-
 footer {
 	height: 200px;
 	text-align: center;
 }
 
-footer div p {
+/* texte contenu dans le footer */
+footer p {
 	color: #7a7a7a;
 	padding-top: 90px;
 }
 
-footer div a {
+/* liens contenus dans le footer */
+footer a {
 	color: #000000;
 	text-decoration: none;
 }
