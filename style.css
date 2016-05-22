@@ -34,12 +34,12 @@ h4{
 	color:#A8D9B8;
 	font-size: 22px;
 }
-
+/*CONTAINER*/
 #container{
 	width: 1280px;
 	margin: 0 auto;
 }
-
+/*SECTION HEADER*/
 #sec_header{
 	background-color: #EEEEEE;
 }
@@ -56,13 +56,6 @@ header h1{
 	float: left;
 }
 
-/*.title_logo{
-	float: left;
-}
-.title_logo h1{
-	margin: 0;
-}
-*/
 nav{
 	margin-top: 37px;
 	margin-bottom: 37px;
@@ -81,8 +74,7 @@ nav a{
 nav ul li{
 	display: inline-block;
 }
-
-/*Bloc main*/
+/*BLOCS 1 AVEC ARRIERE PLAN */
 .bg1{
 	height: 825px;
 	background-image: url('images/banner.png');
@@ -91,12 +83,14 @@ nav ul li{
 	background-position: center;
 	background-color: #27AE61;
 }
+
+/* CONTAINER DIMENSIONNÉ */
 .bloc1{
 	padding-top: 120px;
 	width: 1000px;
 	margin: 0px auto;
 }
-
+/* BALISE ARTICLE */
 article{
 
 	text-align: center;
@@ -110,6 +104,7 @@ article p{
 article h3{
 		padding-bottom: 55px;
 }
+/* PROFIL PHOTO */
 .user{
 	/*margin: 0px auto;*/
 	display: inline-block;
@@ -137,7 +132,7 @@ article h3{
 	background-image: url(images/pic03.jpg);
 	border-radius: 50%;
 }
-
+/*BOUTON CLIC*/
 .clicbloc1{
 	vertical-align: middle;
 	margin: 80px auto;
@@ -157,6 +152,8 @@ article h3{
 	color:#A8D9B8;
 	font-size: 22px;
 }*/
+
+
 /*ajout de la partie bloc 2 et 3 */
 .bg2{
 	height: 825px;
@@ -184,7 +181,6 @@ article h3{
 /*margin :auto;*/
 	text-align: center;
 	width : 1000px;
-	height: 500px;
 	background-color: #008000;
 	color : white;
 	margin-bottom: 50px; /* pousse  le footer vers le bas*/
