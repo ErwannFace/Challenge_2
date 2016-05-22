@@ -44,11 +44,27 @@ nav a:hover {
 	color: #39B26D;
 }
 
+section {
+	height: 610px;
+}
+
 .top-section {
 	height: 825px;
 	background-color: #39B26D;
 	color: white;
 	text-align: center;
+}
+
+.middle-section {
+	background-color: white;
+}
+
+.bottom-section {
+	background-color: #39B26D;
+}
+
+footer {
+	height: 200px;
 }
 
 /* série de photos */
