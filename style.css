@@ -92,12 +92,22 @@ nav ul li{
 	width: 1000px;
 	margin: 0px auto;
 }
+.clicbloc1{
+	
+	margin: 80px auto;
+	background-color: #2B3F48;
+	width: 264px;
+	height: 70px;
+	border-radius: 15px;
+}
+
 /* BALISE ARTICLE */
 article{
 
 	text-align: center;
 }
 article p{
+	text-align : center;
 	font-weight: 400;
 	color: #A8D9B8;
 	margin: 0px;
@@ -110,7 +120,7 @@ article h3{
 .user{
 	/*margin: 0px auto;*/
 	display: inline-block;
-	width: 150px;/* 100 au lieu de 150 , photo trop grande*/
+	width: 150px;
 	height:	150px;
 }
 
@@ -135,31 +145,19 @@ article h3{
 	border-radius: 50%;
 }
 /*BOUTON CLIC*/
-.clicbloc1{
-	vertical-align: middle;
-	margin: 80px auto;
-	background-color: #2B3F48;
-	width: 264px;
-	height: 70px;
-	border-radius: 15px;
-}
+
 .title_clic{
 	margin: auto;
 	font-size: 20px;
 	color:#FFF;
 }
-/*h3.title_clic{
-	margin:0;
-	font-weight: 400;
-	color:#A8D9B8;
-	font-size: 22px;
-}*/
 
 
 /*ajout de la partie bloc 2 et 3 */
 .bg2{
+	text-align: center;
+	padding-top: 0px;
 	height: 825px;
-	background-image: url('images/banner.png');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -167,36 +165,48 @@ article h3{
 
 }
 
-.Bloc2 {
+.bloc2{
 	padding-top: 120px;
 	width: 1000px;
-	margin: 0px auto;
-	/*width: 1280px;
-	height: 500px;
-	background-color: rgb(250,250,250);*/
-	
+	margin: 0px auto;	
 }
 
 .clicbloc2{
-	/*vertical-align: middle;*/
 	margin: 80px auto;
-	background-color: #2B3F48;
+	padding-top : 0px;
+	
 	width: 264px;
 	height: 70px;
-	border-radius: 15px;
+	border-radius: 10px;
 	background-color: #27AE61;
-	/*text-align: center;
-	font-family : News Cycle;
-	background-color :#008000;
-	color: white;
-	border-radius : 5%;
-	font-size : 17px;
-	padding : 20px;*/
+
+}
+
+.clicbloc2 a {
+	display: inline-block;
+	margin-top: 20px;
+	color : white;
+	font-family: 'News Cycle';
+}
+
+.bloc2 h2 {
+	padding-top :50px;
+	color : grey;
+}
+
+.bloc2 h3 {
+	color : grey;
+}
+
+.bloc2 p {
+	margin-left : 140px;
+	width : 1000px;
+	color : grey;
+	margin-bottom: 150px;
 }
 
 .bg3{
 	height: 825px;
-	background-image: url('images/banner.png');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -206,77 +216,49 @@ article h3{
 .bloc3{
 	padding-top: 120px;
 	width: 1000px;
-	margin: 0px auto;
+	margin: 0px auto;	
+}
 
-	/*width : 1280px;
-	height: 500px;
-	background-color: #008000;
-	color : white;
-	margin-bottom: 50px; /* pousse  le footer vers le bas*/
-
-	
+.bloc3 h2, h3 {
+	color : #ffffff;
 }
 
 .clicbloc3{
-	vertical-align: middle;
 	margin: 80px auto;
-	background-color: #2B3F48;
+	font-family: 'News Cycle';
 	width: 264px;
 	height: 70px;
-	border-radius: 15px;
+	border-radius: 10px;
 	background-color :white;
-	/*text-align: center;
-	font-family : News Cycle;
-	background-color :white;
-	color: green;
-	border-radius: 10%;
-	font-size : 17px;
-	padding : 20px;*/
+	}
 
-}
-/*
-p{
-	font-family : News Cycle;
-	font-size: 17px;
-	margin : 0;
-	margin-left: 125px;
-	margin-bottom: 25px;
-	width : 1000px;
-}
-*/
-/*h4{
-	font-size: 55px;
-	font-family : News Cycle;
-		margin: 0;
-		margin-left: 125px;
-		margin-bottom: 25px;
-		margin-top: 25px;
-		width : 1000px;
-
+.clicbloc3 a {
+	display: inline-block;
+	margin-top: 20px;
+	color : #27AE61;
 }
 
-h5{
-	font-family : News Cycle;
-	font-size : 22px;
-		margin: 0;
-		margin-left: 125px;
-		width : 1000px;
-}
-*/
 
-
-
-/*.clicbloc1 button{
+footer
+{
 	text-align: center;
-	font-family : News Cycle;
-	background-color :#2b3f48;  
-	color: white;
-	border-radius: 10%;
-	font-size : 17px;
-	padding : 20px;
+	margin: 0 auto;
+	height: 108px;
+	width: 1280px; 
+	background-color: white;
 }
-*/
 
+footer p {
+	font-family: 'News Cycle';
+	font-size: 17px;
+	display: inline-block;
+	margin-top: 50px;
+	
+}
 
-
-/*@fonts */
+/*centrage verticale dans bouton 1 */
+.clicbloc1 a {
+	font-family: 'News Cycle';
+	display: inline-block;
+	margin-top: 20px;
+}
