@@ -1,0 +1,28 @@
+body {
+	font-family: "News Cycle";
+}
+
+h1 {
+	font-size: 55px;
+}
+
+h2 {
+	font-size: 22px;
+}
+
+p {
+	font-size: 17px;
+}
+
+/* limite le contenu des sections :
+largeur de 1000px
+centré horizontalement */
+.content {
+	width: 1000px;
+	margin: auto;
+}
+
+/* coloration des liens au survol */
+nav a:hover {
+	color: #39B26D;
+}
