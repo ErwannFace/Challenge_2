@@ -1,7 +1,19 @@
 body {
 	font-family: "News Cycle";
-	width: 1280px;
-	height: 2356px;
+	width: 100%;
+}
+
+/* limite le contenu des sections :
+largeur de 1000px
+centré horizontalement */
+.content {
+	width: 1000px;
+	height: 100%;
+	margin: auto;
+}
+
+header {
+	height: 100px;
 }
 
 /* titre de la page */
@@ -11,28 +23,6 @@ h1 {
 	font-weight: 700;
 	margin-top: 0px;
 	margin-bottom: 0px;
-}
-
-/* titres des sections */
-h2 {
-	font-size: 55px;
-}
-
-/* sous-titres des sections */
-h3 {
-	font-size: 22px;
-}
-
-p {
-	font-size: 17px;
-}
-
-/* limite le contenu des sections :
-largeur de 1000px
-centré horizontalement */
-.content {
-	width: 1000px;
-	margin: auto;
 }
 
 /* positionne la barre de navigation à droite de la barre de titre */
@@ -52,4 +42,47 @@ nav a {
 /* coloration des liens au survol */
 nav a:hover {
 	color: #39B26D;
+}
+
+.top-section {
+	height: 825px;
+	background-color: #39B26D;
+	color: white;
+	text-align: center;
+}
+
+/* série de photos */
+.pictures {
+	padding: auto;
+	padding-top: 120px;
+	height: 160px;
+}
+
+/* photo en médaillon */
+.pictures img {
+	width: 160px;
+	height: 160px;
+	border-radius: 160px;
+	margin-left: 22px;
+	margin-right: 22px;
+}
+
+/* titres des sections */
+h2 {
+	font-size: 55px;
+	font-weight: 700;
+	padding-bottom: 20px;
+	margin-bottom: 0;
+}
+
+/* sous-titres des sections */
+h3 {
+	padding-top: 0;
+	margin-top: 0;
+	font-size: 22px;
+	font-weight: 400;
+}
+
+p {
+	font-size: 17px;
 }
