@@ -4,11 +4,18 @@
 	padding: 0;
 }
 
+/* police gloable du document & largeur du <body> (pleine page) */
 body {
 	font-family: "News Cycle";
 	width: 100%;
 }
 
+/* taille globale du texte */
+p {
+	font-size: 17px;
+}
+
+/* définition de l’effet de la balise <strong> */
 strong {
 	font-weight: 700;
 }
@@ -22,6 +29,7 @@ centré horizontalement */
 	margin: auto;
 }
 
+/* hauteur du header (titre et menu) */
 header {
 	height: 100px;
 }
@@ -52,6 +60,7 @@ nav a:hover {
 	color: #39B26D;
 }
 
+/* définition du style global des sections */
 section {
 	padding-top: 110px;
 	/* taille totale 610px - padding 110px = 500px */
@@ -59,16 +68,74 @@ section {
 	text-align: center;
 }
 
+/* définition des styles spécifiques des sections */
 .big-section {
 	/* taille totale 825px - padding 110px = 715px */
 	height: 715px;
 	color: #FFFFFF;
-	background-color: #39B26D;
+	background-color: #27AE61;
 	/* image de fond */
 	background-image: url("images/banner.png");
 	background-repeat: no-repeat;
 	background-position: center top;
 	background-size: cover;
+}
+
+.white-section {
+	background-color: #FFFFFF;
+	color: #000000;
+}
+
+.green-section {
+	background-color: #39B26D;
+	color: #FFFFFF;
+}
+
+/* boutons cliquables */
+.button {
+	border-radius: 15px;
+	margin: auto;
+	margin-top: 75px;
+	width: 265px;
+	height: 70px;
+}
+
+/* boutons cliquables - format et alignement du texte */
+.button p {
+	display: block;
+	text-align: center;
+	padding-top: 22px;
+	font-weight: 700;
+}
+
+/* boutons cliquables - format du lien */
+.button a {
+	text-decoration: none;
+}
+
+/* boutons cliquables - couleurs spécifiques par section */
+.big-section .button {
+	background-color: #2B3F48;
+}
+
+.big-section .button a {
+	color: #FFFFFF;
+}
+
+.white-section .button {
+	background-color: #27AE61;
+}
+
+.white-section .button a {
+	color: #FFFFFF;
+}
+
+.green-section .button {
+	background-color: #FFFFFF;
+}
+
+.green-section .button a {
+	color: #27AE61;
 }
 
 /* série de photos */
@@ -102,25 +169,13 @@ h3 {
 	padding-bottom: 45px;
 }
 
-p {
-	font-size: 17px;
-}
-
-.white-section {
-	background-color: #FFFFFF;
-	color: #000000;
-}
-
-.green-section {
-	background-color: #39B26D;
-	color: #FFFFFF;
-}
-
+/* style des liens de la dernière section */
 .green-section p a {
 	color: #FFFFFF;
 	font-weight: 700;
 }
 
+/* taille verticale et alignement du texte du footer */
 footer {
 	height: 200px;
 	text-align: center;
