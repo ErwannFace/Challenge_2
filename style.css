@@ -1,40 +1,73 @@
-
+body {
+	background-size:100%;
+}
 
 * {
-	font-family: "News Cycle";
+	font-family: "News Cycle";       
 }
+                     /* info General font */
 
 
 h2 {
 	font-size : 55px;
-	text-align : center;		/* ingo G font */
+	text-align : center;		
 }
+
+/*h2 sont nos titre de nos blocs*/
 
 h3 {
 	font-size : 22px;
 	text-align : center;
 }
+/*h3 sont nos sous-titre de nos blocs*/
 
 p {
 	font-size : 17px;
 	text-align : center;
 }
 
+/*p sont les paragraphes de nos blocs*/
 
-
-.header {
-	height : 103px;
-	width : 100%;					/* Le header...*/
-	background-color: #EEEEEE; 
-	text-align: center;
-	margin: 0 auto;
+ul {
+    	list-style-type: none;
+    	margin: 0;
+    	padding: 0;
+    	overflow: hidden;
+    	background-color: white;
+	
 }
+
+/*ul est notre liste pour le titre principal et le menu*/
+
+li {
+	float:left;
+}
+
+li a {
+    	display: block;
+    	color: black;
+   	text-align: center;
+    	padding: 40px 10px;
+    	text-decoration: none;
+}
+
+.titre {
+	font-size:55px;
+	margin-left:100px;
+	
+}
+
+.menu {
+	float:left;
+	
+}
+
 
 
 
 .haut {
 	width:100%;
-	height: 855px;
+	height: 700px;
 	background-image : url("images/banner.png");
 	background-repeat : no-repeat;
 	background-attachment : scroll;
@@ -43,15 +76,16 @@ p {
 	opacity : 0.8;
 	margin: 0 auto;
 }
-
+/*ci-dessus ce trouve le 1er blocs*/
 .img {
 	display : inline-block;
 	width : 160px;
 	height : 160px;
-	border-radius : 320px;				/* 1er bloc de .haut a texte blanc*/
+	border-radius : 320px;				
 	background-size: 100%;
+	margin-left:50px;
 }
-
+/* 1er bloc de .haut a texte blanc*/
 .img1 {
 	background-image : url('images/pic01.jpg');
 }
@@ -65,9 +99,11 @@ p {
 
 #image {
 	margin :0 auto;
-	width : 500px;
+	width : 700px;
 	padding-top: 50px;
 }
+
+/*ci-dessus ce trouve les infos de nos image */
 
 .texteblanc {
 	width: 1000px;
@@ -79,8 +115,36 @@ p {
 	padding: 0 auto;
 } 
 
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
 
+.button1 {
+	border-radius:12px;
+	background-color:#2B3F48;
+	margin-top:50px;
+}
 
+.button2 {
+	border-radius:12px;
+	background-color:#27AE61;
+	margin-top:90px;
+}
+
+.button3 {
+	border-radius:12px;
+	background-color:white;
+	margin-top:100px;
+	color:#27AE61;
+}
 .milieu  {
         height : 617px;
         width : 100%;
