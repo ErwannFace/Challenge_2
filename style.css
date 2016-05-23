@@ -36,16 +36,20 @@ header {
 
 /* titre de la page */
 h1 {
-	float: left;
+	display: inline;
 	font-size: 33px;
 	font-weight: 700;
-	margin-top: 20px;
+	margin: auto;
+	line-height: 100px;
 }
 
 /* positionne la barre de navigation à droite de la barre de titre */
 nav div {
-	float: right;
-	margin-top: 35px;
+	display: inline;
+	position: fixed;
+	right: 100px;
+	margin: auto;
+	line-height: 100px;
 }
 
 /* style et alignement horizontal des liens */
