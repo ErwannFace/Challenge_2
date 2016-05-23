@@ -63,15 +63,15 @@ nav a:hover {
 /* définition du style global des sections */
 section {
 	padding-top: 110px;
-	/* taille totale 610px - padding 110px = 500px */
-	height: 500px;
+	height: 610px;
+	box-sizing: border-box;
 	text-align: center;
 }
 
 /* définition des styles spécifiques des sections */
 .big-section {
-	/* taille totale 825px - padding 110px = 715px */
-	height: 715px;
+	height: 825px;
+	box-sizing: border-box;
 	color: #FFFFFF;
 	background-color: #27AE61;
 	/* image de fond */
