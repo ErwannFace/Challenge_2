@@ -157,10 +157,7 @@ article h3{
 .bg2{
 	text-align: center;
 	padding-top: 0px;
-	height: 825px;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
+	height:625px;
 	background-color: #ffffff;
 
 }
@@ -174,7 +171,6 @@ article h3{
 .clicbloc2{
 	margin: 80px auto;
 	padding-top : 0px;
-	
 	width: 264px;
 	height: 70px;
 	border-radius: 10px;
@@ -199,17 +195,13 @@ article h3{
 }
 
 .bloc2 p {
-	margin-left : 140px;
 	width : 1000px;
 	color : grey;
 	margin-bottom: 150px;
 }
 
 .bg3{
-	height: 825px;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
+	height: 625px;
 	background-color: #27AE61;
 
 }
@@ -241,18 +233,19 @@ article h3{
 
 footer
 {
+	height: 210px;
 	text-align: center;
 	margin: 0 auto;
-	height: 108px;
 	width: 1280px; 
 	background-color: white;
 }
 
 footer p {
+	margin
 	font-family: 'News Cycle';
 	font-size: 17px;
 	display: inline-block;
-	margin-top: 50px;
+	margin:auto 0;
 	
 }
 
