@@ -1,5 +1,4 @@
 body{
-	background-color: #222;
 	margin:0;
 }
 a{	
@@ -8,18 +7,18 @@ a{
 	font-family: 'News Cycle';
 	text-decoration: none;
 }
-a:hover{
+nav a:hover{
 	color: #27AE61;
 
 }
-h1, h2, h3, h4,.title_clic{font-family: 'News Cycle';}
+h1, h2, h3, h4,.title_clic, p{font-family: 'News Cycle';}
 
 h1{
 	font-size: 33px;
 }
 
 h2{
-	height: 55px;
+	/*height: 55px;*/
 	color: #FFF;
 	font-size: 55px;
 }
@@ -38,7 +37,7 @@ h4{
 }
 /*CONTAINER*/
 #container{
-	width: 1280px;
+	/*width: 1280px;*/
 	margin: 0 auto;
 }
 /*SECTION HEADER*/
@@ -59,7 +58,7 @@ header h1{
 }
 
 nav{
-	margin-top: 37px;
+	margin-top: 31px;
 	margin-bottom: 37px;
 	height: 34px;
 	float: right;
@@ -92,14 +91,6 @@ nav ul li{
 	width: 1000px;
 	margin: 0px auto;
 }
-.clicbloc1{
-	
-	margin: 80px auto;
-	background-color: #2B3F48;
-	width: 264px;
-	height: 70px;
-	border-radius: 15px;
-}
 
 /* BALISE ARTICLE */
 article{
@@ -113,9 +104,12 @@ article p{
 	color: #A8D9B8;
 	margin: 0px;
 }
-
+article h2{
+	margin-bottom: 0px;
+}
 article h3{
-		padding-bottom: 55px;
+	margin-top: 0;
+	margin-bottom: 53px;
 }
 /* PROFIL PHOTO */
 .user{
@@ -146,31 +140,40 @@ article h3{
 	border-radius: 50%;
 }
 /*BOUTON CLIC*/
-
-.title_clic{
-	margin: auto;
-	font-size: 20px;
+.clicbloc1{
+	
+	margin: 80px auto;
+	background-color: #2B3F48;
+	width: 264px;
+	height: 70px;
+	border-radius: 15px;
+}
+.clicbloc1 a {
+	letter-spacing: 3px;
+	font-weight: 300;
 	color:#FFF;
+	font-family: 'News Cycle';
+	display: inline-block;
+	margin-top: 20px;
 }
 
-
-/*ajout de la partie bloc 2 et 3 */
+/*BLOCS 2 AVEC ARRIERE PLAN */
 .bg2{
 	text-align: center;
 	padding-top: 0px;
-	height:625px;
-	background-color: #ffffff;
+	height:616px;
+	background-color: rgba(255, 255, 255, 0.8);
 
 }
 
 .bloc2{
-	padding-top: 120px;
 	width: 1000px;
-	margin: 0px auto;	
+	margin: 0px auto;
+	padding-top:  86px;	
 }
-
+/*BOUTON CLIC 2*/
 .clicbloc2{
-	margin: 80px auto;
+	margin: 60px auto 0 auto;
 	padding-top : 0px;
 	width: 264px;
 	height: 70px;
@@ -180,6 +183,7 @@ article h3{
 }
 
 .clicbloc2 a {
+	letter-spacing: 3px;
 	display: inline-block;
 	margin-top: 20px;
 	color : white;
@@ -187,7 +191,7 @@ article h3{
 }
 
 .bloc2 h2 {
-	padding-top :50px;
+	margin: 0;
 	color : grey;
 }
 
@@ -195,27 +199,30 @@ article h3{
 	color : grey;
 }
 
-.bloc2 p {
+.bloc2 p{
 	width : 1000px;
-	color : grey;
-	margin-bottom: 150px;
+	color : #656565;
 }
-
+/*BLOCS 1 AVEC ARRIERE PLAN */
 .bg3{
-	height: 625px;
+	height: 603px;
 	background-color: #27AE61;
 
 }
 .bloc3{
-	padding-top: 120px;
+	padding-top: 86px;
 	width: 1000px;
 	margin: 0px auto;	
+}
+
+.bloc3 h2{
+	margin:0;
 }
 
 .bloc3 h2, h3 {
 	color : #ffffff;
 }
-
+/*BOUTON CLIC 3*/
 .clicbloc3{
 	margin: 80px auto;
 	font-family: 'News Cycle';
@@ -225,34 +232,32 @@ article h3{
 	background-color :white;
 	}
 
-.clicbloc3 a {
+.clicbloc3 a{
+	letter-spacing: 3px;
 	display: inline-block;
 	margin-top: 20px;
 	color : #27AE61;
 }
-
+/*FOOTER*/
+.sec_footer{
+	height: 210px;
+}
 
 footer
 {
-	height: 210px;
+	padding-top: 81px;
 	text-align: center;
 	margin: 0 auto;
-	width: 1280px; 
 	background-color: white;
 }
 
 footer p {
-	margin
-	font-family: 'News Cycle';
-	font-size: 17px;
+	color: #656565;
+	font-weight: 300;
+	font-family: 'News Cycle', sans-serif;
+	font-size: 13px;
 	display: inline-block;
 	margin:auto 0;
-	
-}
-
-/*centrage verticale dans bouton 1 */
-.clicbloc1 a {
-	font-family: 'News Cycle';
-	display: inline-block;
-	margin-top: 20px;
+	text-transform: uppercase;
+	word-spacing: 3px;
 }
