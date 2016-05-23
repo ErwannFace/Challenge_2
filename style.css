@@ -7,18 +7,18 @@
 	background-position:center center;
 	font-family: News Cycle;
 }
-
-body{
-    /*background-color: black;*/
-}
  
-#header{
+header{
 	width:1280px;
 	height:110px;
 }
- 
-a:hover { /*Menu qui change de couleur*/
-    color:#3CB371;
+
+h1{
+    float: left;
+    font-size: 55px;
+    line-height: 15px;
+    color:#223F48;
+    margin-left: 150px;
 }
 
 h2{
@@ -43,12 +43,8 @@ ul  { /*menu*/
 
  li { /*menu*/
     display: inline;
-    /*list-style: none;*/
-    /*margin: auto;*/
-    /*padding: 0 15px 0 15px;*/
     width: 100px;
     height: 40px;
-    /*text-align:center;*/
     line-height: 50px;
     padding: 5px;
     margin-right: 15px;
@@ -57,22 +53,13 @@ ul  { /*menu*/
 
  a { /* lien ds le menu*/
     display:inline-block;
-    /*margin: 0px;*/
     text-decoration: none;
     color: #223F48;
     font-size: 17px;
-    /*margin-right: 5px;
-    margin-top: 5px;*/
 }
 
-h1{
-    float: left;
-    font-size: 55px;
-    line-height: 15px;
-    /*padding: 15px 0 15px 0;*/
-    color:#223F48;
-    /*margin: 40px;*/
-    margin-left: 150px;
+a:hover { /*Menu qui change de couleur*/
+    color:#3CB371;
 }
 
 #text1 {
@@ -104,7 +91,6 @@ h1{
     width:150px;
     height:150px;
     margin: 35px;
-    /*overflow: hidden;*/
 }
 
 #photo{
@@ -157,9 +143,15 @@ h1{
 	background-color:#3CB371;
 }
 
-#footer{
+footer{
 	width:1280px;
 	height:213px;
 	text-align: center;
 	line-height: 250px;
+	color: #223F48;
+}
+
+em {
+	color: black;
+	font-style: normal;
 }
