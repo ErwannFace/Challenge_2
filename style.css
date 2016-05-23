@@ -176,6 +176,12 @@ nav li:hover {
 
 #article3 p {
 	text-align: center;
+	color: white;
+	text-decoration:none;
+}
+
+#article3 a{
+	color: white;
 }
 
 #bouton3 {
@@ -202,5 +208,18 @@ footer {
 	background: #EEEEEE;
 	margin-right: auto;
 	margin-left: auto;
+}
+
+footer pre{
+	text-align: center;
+	padding-top: 80px;
+	color: gray;
+	font-size: 15px;
+
+}
+
+footer a{
+	color: gray;
+	text-decoration: none;
 }
 
