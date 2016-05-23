@@ -27,6 +27,7 @@ centré horizontalement */
 	width: 1000px;
 	height: 100%;
 	margin: auto;
+	position: relative;
 }
 
 /* hauteur du header (titre et menu) */
@@ -46,8 +47,8 @@ h1 {
 /* positionne la barre de navigation à droite de la barre de titre */
 nav div {
 	display: inline;
-	position: fixed;
-	right: 100px;
+	position: absolute;
+	right: 0;
 	margin: auto;
 	line-height: 100px;
 }
