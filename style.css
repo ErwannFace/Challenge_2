@@ -1,0 +1,199 @@
+/* évite la définition de marges par défaut par le navigateur */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* police gloable du document & largeur du <body> (pleine page) */
+body {
+	font-family: "News Cycle";
+	width: 100%;
+}
+
+/* taille globale du texte */
+p {
+	font-size: 17px;
+}
+
+/* définition de l’effet de la balise <strong> */
+strong {
+	font-weight: 700;
+}
+
+/* limite le contenu des sections :
+largeur de 1000px
+centré horizontalement */
+.content {
+	width: 1000px;
+	height: 100%;
+	margin: auto;
+	position: relative;
+}
+
+/* hauteur du header (titre et menu) */
+header {
+	height: 100px;
+}
+
+/* titre de la page */
+h1 {
+	display: inline;
+	font-size: 33px;
+	font-weight: 700;
+	margin: auto;
+	line-height: 100px;
+}
+
+/* positionne la barre de navigation à droite de la barre de titre */
+nav div {
+	display: inline;
+	position: absolute;
+	right: 0;
+	margin: auto;
+	line-height: 100px;
+}
+
+/* style et alignement horizontal des liens */
+nav a {
+	color: #000000;
+	text-decoration: none;
+	margin-left: 30px;
+}
+
+/* coloration des liens au survol */
+nav a:hover {
+	color: #39B26D;
+}
+
+/* définition du style global des sections */
+section {
+	padding-top: 110px;
+	height: 610px;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+/* définition des styles spécifiques des sections */
+.big-section {
+	height: 825px;
+	box-sizing: border-box;
+	color: #FFFFFF;
+	background-color: #27AE61;
+	/* image de fond */
+	background-image: url("images/banner.png");
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: cover;
+}
+
+.white-section {
+	background-color: #FFFFFF;
+	color: #000000;
+}
+
+.green-section {
+	background-color: #39B26D;
+	color: #FFFFFF;
+}
+
+/* boutons cliquables */
+.button {
+	border-radius: 15px;
+	margin: auto;
+	margin-top: 75px;
+	width: 265px;
+	height: 70px;
+}
+
+/* boutons cliquables - format et alignement du texte */
+.button p {
+	display: block;
+	text-align: center;
+	padding-top: 22px;
+	font-weight: 700;
+}
+
+/* boutons cliquables - format du lien */
+.button a {
+	text-decoration: none;
+}
+
+/* boutons cliquables - couleurs spécifiques par section */
+.big-section .button {
+	background-color: #2B3F48;
+}
+
+.big-section .button a {
+	color: #FFFFFF;
+}
+
+.white-section .button {
+	background-color: #27AE61;
+}
+
+.white-section .button a {
+	color: #FFFFFF;
+}
+
+.green-section .button {
+	background-color: #FFFFFF;
+}
+
+.green-section .button a {
+	color: #27AE61;
+}
+
+/* série de photos */
+.pictures {
+	padding-bottom: 80px;
+	height: 160px;
+}
+
+/* format et alignement des photos */
+.pictures img {
+	/* médaillons de 160px de rayon */
+	width: 160px;
+	height: 160px;
+	border-radius: 160px;
+	/* alignement horizontal des images */
+	margin-left: 22px;
+	margin-right: 22px;
+}
+
+/* titres des sections */
+h2 {
+	font-size: 55px;
+	font-weight: 700;
+	padding-bottom: 5px;
+}
+
+/* sous-titres des sections */
+h3 {
+	font-size: 22px;
+	font-weight: 400;
+	padding-bottom: 45px;
+}
+
+/* style des liens de la dernière section */
+.green-section p a {
+	color: #FFFFFF;
+	font-weight: 700;
+}
+
+/* taille verticale et alignement du texte du footer */
+footer {
+	height: 200px;
+	text-align: center;
+}
+
+/* texte contenu dans le footer */
+footer p {
+	color: #7a7a7a;
+	padding-top: 90px;
+}
+
+/* liens contenus dans le footer */
+footer a {
+	color: #000000;
+	text-decoration: none;
+}
