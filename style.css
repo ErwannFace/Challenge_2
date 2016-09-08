@@ -1,0 +1,174 @@
+/* GENERAL */
+@font-face {
+    font-family: News Cycle;
+    src: url(news_cycle.woff2);
+}
+
+body {
+	margin: 0;
+}
+
+#container {
+	background-color: whitesmoke;
+	width: 100%;
+	background-position: center center;
+	font-family: News Cycle;
+}
+
+#header {
+	width: 100%;
+	height: 100px;
+}
+
+h1 {
+	float: left;
+	font-size: 50px;
+	padding: 0;
+	color: #223F48;
+	margin: 0 0 0 50px;
+}
+
+h2 {
+	font-size: 55px;
+	margin-bottom: 10px;
+
+}
+
+h3 {
+	font-size: 22px;
+	margin-bottom: 40px;
+}
+
+p {
+	font-size: 17px;
+}
+
+a {
+	text-decoration: none;	
+}
+
+/* NAVBAR */
+ul {
+	padding: 30px 0 30px 0;
+	margin: 0 20px 0 20px;
+	float: right;
+}
+
+ul li {
+	 display: inline;
+	 list-style: none;
+	 width: 100%;
+	 height: 40px;
+	 padding: 5px;
+	 margin-right: 15px;
+	 margin-left: 15px;
+}
+
+ul li a {
+	 display:inline-block;
+	 text-decoration: none;
+	 color: #223F48;
+	 font-size: 17px;
+}
+
+ul li a:hover { /*Menu qui change de couleur*/
+	color: #3CB371;
+}
+
+/* SECTIONS */
+#photo{
+	width: 100%;
+	height: 770px;
+	background-repeat: no-repeat;
+	background-position: center; 
+	background-image: url("images/banner.png");
+	background-color: #3CB371;
+	background-size: 100%;
+}
+
+#photo img{
+	border-radius:100px;
+	width:150px;
+	height:150px;
+	margin: 35px;
+}
+
+#blanc {
+	height: 550px;
+}
+
+#vert {
+	height: 640px;
+	background-color: #3CB371;
+}
+
+.text {
+	width: 70%;
+	margin: auto;
+	text-align: center;
+
+}
+
+#text1 {
+	color: white;
+	padding-top: 40px;
+}
+
+#text2 {
+	padding-top: 10px;
+	color: #223F48;
+}
+
+#text3 {
+	color: white;
+	padding-top: 80px;
+}
+
+/* BUTTON */
+.bouton {
+	width: 250px;
+	height: 43px;
+	padding-top: 1px;
+	padding-bottom: 20px; /* permet le centrage vertical*/
+	text-align: center;
+	margin: 0 auto;
+	border-radius: 10px;
+	position: relative;
+	top: 20px;
+	left: 15px;
+}
+
+.boutongrey {
+	color: white;
+	background:#223F48;
+	top: 40px;
+}
+
+.boutonvert {
+	color: white;
+	background: #3CB371; 
+}
+
+.boutonblanc {
+	color: green;
+	background: white;   
+}
+
+.bouton:hover {
+	opacity: 0.8;	
+}
+
+/* FOOTER */
+#footer {
+	height: 120px;
+	text-align: center;
+	padding-top: 60px;
+}
+
+#footer a {
+	color: #223F48;
+}
+
+#footer a:hover {
+	color: #3CB371;
+}
