@@ -105,7 +105,7 @@ ul li a:hover { /*Menu qui change de couleur*/
 	width: 70%;
 	margin: auto;
 	text-align: center;
-		
+
 }
 
 #text1 {
@@ -156,7 +156,6 @@ ul li a:hover { /*Menu qui change de couleur*/
 .bouton:hover {
 	opacity: 0.8;	
 }
-
 
 /* FOOTER */
 #footer {
